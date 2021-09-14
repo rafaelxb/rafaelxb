@@ -7,8 +7,8 @@ on:
 
 jobs:
   build:
-    name: Jobs to update datas
-    runs-on: windows-latest
+    name: deploy to staging
+    runs-on: ubuntu-18.04
     steps:
       # Snake Animation
       - uses: Platane/snk@master
